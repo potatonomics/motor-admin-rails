@@ -112,8 +112,8 @@ export default {
       selectedTags: [],
       pageParams: {
         current: 1,
-        pageSize: 20,
-        pageSizeOpts: [20, 50, 100]
+        pageSize: 100,
+        pageSizeOpts: [50, 100, 250]
       }
     }
   },

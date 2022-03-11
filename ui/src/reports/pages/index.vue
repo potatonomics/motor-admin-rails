@@ -164,8 +164,8 @@ export default {
       selectedType: this.$route.params.type || 'all',
       pageParams: {
         current: 1,
-        pageSize: 20,
-        pageSizeOpts: [20, 50, 100]
+        pageSize: 50,
+        pageSizeOpts: [20, 50, 100, 250]
       }
     }
   },

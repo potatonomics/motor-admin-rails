@@ -26,6 +26,7 @@ module Motor
 
     def create
       if @associated_resource
+        @associated_resource.user_id = current_user
         if @resource_class.reflections[params[:association]].through_reflection?
           @associated_resource.save!
 

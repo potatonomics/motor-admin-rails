@@ -173,9 +173,9 @@ import throttle from 'view3/src/utils/throttle'
 
 const defaultPaginationParams = {
   current: 1,
-  pageSize: 20,
+  pageSize: 100,
   total: 0,
-  pageSizeOpts: [20, 50, 100, 250, 500]
+  pageSizeOpts: [50, 100, 250, 500]
 }
 
 const itemsCountCache = reactive({})
